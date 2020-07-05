@@ -1,0 +1,64 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  padding-top: 80px;
+  padding-left: 50px;
+  background-color: lightgray;
+  min-height: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+.bar {
+  width: 2px;
+  display: inline-block;
+  margin: 0 1px 0 1px;
+}
+.toolbar {
+  width: 100%;
+  height: 100px;
+  background-color: #708090;
+}
+.generate {
+  font-size: 16px;
+  font-family: monospace;
+  display: inline-block;
+  margin-left: 45px;
+  margin-right: 45px;
+  border: none;
+  color: white;
+}
+.generate:hover {
+  color: rgb(212, 212, 212) !important;
+}
+.separator {
+  width: 5px;
+  height: 55px;
+  margin-left: 15px;
+  margin-right: 15px;
+  display: inline-block;
+}
+.algorithm {
+  font-size: 16px;
+  font-family: monospace;
+  display: inline-block;
+  margin-left: 25px;
+  margin-right: 15px;
+  border: none;
+  color: white;
+}
+.sort {
+  font-size: 16px;
+  font-family: monospace;
+  display: inline-block;
+  margin-left: 45px;
+  margin-right: 15px;
+  border: none;
+  color: white;
+}
+.sort:hover {
+  color: rgb(212, 212, 212) !important;
+}
+.algorithm:hover {
+  color: rgb(212, 212, 212) !important;
+}
